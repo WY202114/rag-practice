@@ -1,0 +1,16 @@
+# 密钥通过运行时提供，不放进镜像。
+.env
+.env.*
+
+# 数据保留在电脑上，通过目录映射供容器使用。
+.chroma/
+uploads/
+.hf-cache/
+data/
+
+# 编辑器配置、版本记录和 Python 缓存无需参与构建。
+.vscode/
+.git/
+**/__pycache__/
+**/*.pyc
+.venv/

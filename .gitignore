@@ -1,0 +1,15 @@
+# 配置模板可以分享，实际密钥留在本机。
+.env
+.env.*
+!.env.example
+
+# 用户资料和模型缓存不上传。
+.chroma/
+uploads/
+.hf-cache/
+
+# 本机环境和编辑器缓存。
+.venv/
+.vscode/
+__pycache__/
+*.pyc
